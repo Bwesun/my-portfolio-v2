@@ -19,13 +19,12 @@ export const skillCategories: SkillCategory[] = [
   title: 'Backend',
   icon: 'server',
   skills: [
-  { name: 'Node.js', level: 92 },
-  { name: 'Laravel', level: 90 },
+  { name: 'Node.js/Express', level: 92 },
   { name: 'PHP', level: 88 },
   { name: 'REST APIs', level: 95 },
   { name: 'Authentication', level: 90 },
   { name: 'MongoDB', level: 87 },
-  { name: 'MySQL', level: 90 },
+  { name: 'PostgresSQL', level: 80 },
   { name: 'Firebase', level: 85 }]
 
 },
@@ -36,7 +35,8 @@ export const skillCategories: SkillCategory[] = [
   skills: [
   { name: 'Ionic React', level: 92 },
   { name: 'Android', level: 80 },
-  { name: 'Cross Platform', level: 88 }]
+  { name: 'iOS', level: 75 },
+  { name: 'Cross Platform', level: 90 }]
 
 },
 {
@@ -58,6 +58,7 @@ export const skillCategories: SkillCategory[] = [
   { name: 'Git', level: 95 },
   { name: 'GitHub', level: 95 },
   { name: 'VS Code', level: 98 },
+  { name: 'Android Studio', level: 98 },
   { name: 'WordPress', level: 85 },
   { name: 'cPanel', level: 88 },
   { name: 'Jira', level: 82 }]

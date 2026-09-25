@@ -18,7 +18,10 @@ export function Footer() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
             <a href="#home" className="text-lg font-bold text-text">
-              Matur<span className="text-accent-light">.</span>
+              <div className="flex items-center gap-2">
+              <img src="/public/maturinnocent.png" alt="MIJ" className="h-8 w-8 rounded-full" />
+              <span className="text-accent-light">MIJ</span>
+            </div>
             </a>
             <p className="mt-3 text-sm leading-relaxed text-muted">
               Full Stack Web & Mobile Developer building scalable, enterprise-grade digital products.

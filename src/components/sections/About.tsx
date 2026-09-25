@@ -23,7 +23,7 @@ export function About() {
             <div className="relative mx-auto w-full max-w-sm">
               <div className="glass-panel relative overflow-hidden rounded-3xl p-3 shadow-glow-sm">
                 <img
-                  src="/285b5f87-c2dc-4ea0-aa3e-a6b11aba684e.jpg"
+                  src="/MaturInnocent.png"
                   alt="Portrait illustration of Matur Innocent Joshua"
                   className="aspect-[4/5] w-full rounded-2xl object-cover" />
                 
@@ -35,7 +35,7 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
                 className="glass-panel absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-2xl px-6 py-3 text-center shadow-glow-sm">
                 
-                <p className="text-sm font-semibold text-text">7+ Years in Tech</p>
+                <p className="text-sm font-semibold text-text">5+ Years in Tech</p>
                 <p className="text-xs text-muted">Development · Leadership · IT</p>
               </motion.div>
             </div>
