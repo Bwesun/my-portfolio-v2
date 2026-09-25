@@ -1,0 +1,76 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+:root,
+[data-theme='dark'] {
+  --color-bg: #0b0b0b;
+  --color-bg-soft: #111113;
+  --color-surface: #15151a;
+  --color-text: #ffffff;
+  --color-text-muted: #a1a1aa;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-glass: rgba(255, 255, 255, 0.05);
+}
+[data-theme='light'] {
+  --color-bg: #f8fafc;
+  --color-bg-soft: #ffffff;
+  --color-surface: #ffffff;
+  --color-text: #0b0b0b;
+  --color-text-muted: #52525b;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-glass: rgba(255, 255, 255, 0.65);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--color-bg);
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.35);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.55);
+}
+.glass-panel {
+  background: var(--color-glass);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.text-gradient-accent {
+  background-image: linear-gradient(90deg, #60a5fa, #3b82f6, #93c5fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
