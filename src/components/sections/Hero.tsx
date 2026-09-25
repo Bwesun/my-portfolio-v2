@@ -13,7 +13,7 @@ const iconMap: Record<SocialIconKey, React.ComponentType<{className?: string;}>>
   portfolio: GlobeIcon
 };
 
-const specialties = ['React & Next.js', 'Node.js & Laravel', 'Ionic Mobile Apps', 'AI-Powered Products'];
+const specialties = ['React & Next.js', 'Node.js & Express.js', 'Mobile Apps', 'Cross-platform Apps', 'AI-Powered Products'];
 
 export function Hero() {
   const typed = useTypedText(specialties);
