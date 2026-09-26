@@ -20,7 +20,7 @@ export function Footer() {
             <a href="#home" className="text-lg font-bold text-text">
               <div className="flex items-center gap-2">
               <img src="/public/maturinnocent.png" alt="MIJ" className="h-8 w-8 rounded-full" />
-              <span className="text-accent-light">MIJ</span>
+              <span className="text-accent-light">Matur Innocent Joshua</span>
             </div>
             </a>
             <p className="mt-3 text-sm leading-relaxed text-muted">

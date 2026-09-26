@@ -50,13 +50,13 @@ export function Contact() {
           <RevealOnScroll className="lg:col-span-2">
             <GlassCard className="flex h-full flex-col justify-between p-8" hover={false}>
               <div className="space-y-6">
-                <ContactRow icon={<MailIcon className="h-4 w-4" />} label="Email" value="hello@maturjoshua.dev" href="mailto:hello@maturjoshua.dev" />
-                <ContactRow icon={<PhoneIcon className="h-4 w-4" />} label="Phone" value="+234 800 000 0000" href="tel:+2348000000000" />
+                <ContactRow icon={<MailIcon className="h-4 w-4" />} label="Email" value="maturinnocent@gmail.com" href="mailto:maturinnocent@gmail.com" />
+                <ContactRow icon={<PhoneIcon className="h-4 w-4" />} label="Phone" value="+234 814 4529 253" href="tel:+2348144529253" />
                 <ContactRow icon={<MapPinIcon className="h-4 w-4" />} label="Location" value="Nigeria (Remote-friendly)" />
               </div>
               <div className="mt-10 flex items-center gap-3">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/bwesun"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="GitHub"
@@ -65,7 +65,7 @@ export function Contact() {
                   <GithubIcon className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://linkedin.com/"
+                  href="https://linkedin.com/in/innocent-matur"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
