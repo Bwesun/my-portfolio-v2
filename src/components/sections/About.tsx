@@ -23,7 +23,7 @@ export function About() {
             <div className="relative mx-auto w-full max-w-sm">
               <div className="glass-panel relative overflow-hidden rounded-3xl p-3 shadow-glow-sm">
                 <img
-                  src="/MaturInnocent.png"
+                  src="/src/assets/maturinnocent.png"
                   alt="Portrait illustration of Matur Innocent Joshua"
                   className="aspect-[4/5] w-full rounded-2xl object-cover" />
                 
