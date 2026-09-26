@@ -25,7 +25,7 @@ export function LoadingScreen() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.4, ease: [0.23, 1, 0.32, 1] }}>
             <div className="flex flex-col items-center justify-center gap-2">
-              <img src="/src/assets/maturinnocent.png" alt="Matur Innocent Joshua " />
+              <img src="/maturinnocent.png" alt="Matur Innocent Joshua " />
               
             </div>
             
