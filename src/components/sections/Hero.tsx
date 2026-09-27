@@ -123,7 +123,7 @@ export function Hero() {
           
           <div className="glass-panel relative overflow-hidden rounded-3xl p-3 shadow-glow">
             <img
-              src="/cbc5f013-3c60-4b55-b515-2f9fc1c9a7c9.jpg"
+              src="/workspace.png"
               alt="Innocent Matur - Full-Stack Engineer and Developer Workspace Illustration"
               className="aspect-square w-full rounded-2xl object-cover" />
             
