@@ -72,7 +72,6 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              download
               className="glass-panel inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-text transition-[transform,border-color] duration-200 ease-out hover:-translate-y-0.5 hover:border-accent/50 active:scale-[0.97]">
               
               <ArrowRight className="h-4 w-4" />

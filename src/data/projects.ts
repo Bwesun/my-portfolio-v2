@@ -6,7 +6,7 @@ export const projects: Project[] = [
 {
   id: 'p1',
   title: 'NCAT Parts Traceability System',
-  category: 'Mobile',
+  category: 'Web',
   tags: ['Enterprise Software', 'React'],
   description:
   'An enterprise aviation inventory, storage, work order execution, and fleet maintenance management platform.',
