@@ -57,8 +57,8 @@ export function Navbar() {
           className="text-lg font-bold tracking-tight text-text">
             {/* Add a small thumbnail image */}
             <div className="flex items-center gap-2">
-              <img src="/project_images/maturinnocent.png" alt="Innocent Matur - Full-Stack Engineer" className="h-8 w-8 rounded-full" />
-              <span className="text-accent-light">MIJ</span>
+              <img src="/project_images/maturinnocent_small.png" alt="Innocent Matur - Full-Stack Engineer" className="h-8 w-8 rounded-full" />
+              <span className="text-accent-light">IJM</span>
             </div>
           </a>
 
