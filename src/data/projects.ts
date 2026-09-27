@@ -7,9 +7,9 @@ export const projects: Project[] = [
   id: 'p1',
   title: 'NCAT Parts Traceability System',
   category: 'Web',
-  tags: ['Enterprise Software', 'React'],
+  tags: ['Enterprise Software', 'React', 'TypeScript', 'Web Application'],
   description:
-  'An enterprise aviation inventory, storage, work order execution, and fleet maintenance management platform.',
+  'An enterprise aviation inventory, storage, work order execution, and fleet maintenance management platform engineered for strict regulatory compliance and operational safety.',
   image: "/project_images/ncatpts.png",
   githubUrl: 'https://ncat.zaptrance.ng',
   demoUrl: 'https://ncat.zaptrance.ng'
@@ -51,9 +51,9 @@ export const projects: Project[] = [
   id: 'p5',
   title: 'CensonoPay',
   category: 'Fintech',
-  tags: ['School Payment Platform', 'Ionic React', 'Node.js', 'Express.js', 'Firebase', 'Paystack', 'Cross-platform'],
+  tags: ['Fintech', 'School Payment Platform', 'Ionic React', 'Node.js', 'Express.js', 'Paystack', 'Censono Tech'],
   description:
-  'A school payment platform supporting over 1,000 simultaneous transactions, built for reliability at scale.',
+  'A school payment platform by Censono Tech supporting over 1,000 simultaneous transactions with real-time Paystack integration, built for high reliability at scale.',
   image: "/project_images/censonopay.png",
   githubUrl: 'https://github.com/Bwesun/censonopay',
   demoUrl: 'https://github.com/Bwesun/censonopay'
