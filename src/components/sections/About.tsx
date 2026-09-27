@@ -24,7 +24,7 @@ export function About() {
               <div className="glass-panel relative overflow-hidden rounded-3xl p-3 shadow-glow-sm">
                 <img
                   src="/project_images/maturinnocent.png"
-                  alt="Portrait illustration of Matur Innocent Joshua"
+                  alt="Innocent Matur (Matur Innocent Joshua) - Full-Stack Engineer and Web/Mobile App Developer"
                   className="aspect-[4/5] w-full rounded-2xl object-cover" />
                 
               </div>

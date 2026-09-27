@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, ChevronDownIcon, DownloadIcon, GithubIcon, GlobeIcon, LinkedinIcon, MailIcon } from 'lucide-react';
+import { ArrowRight, ChevronDownIcon, GithubIcon, GlobeIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 import { ParticleBackground } from '../layout/ParticleBackground';
 import { socialLinks } from '../../data/social';
 import { useTypedText } from '../../hooks/useTypedText';
@@ -43,11 +43,10 @@ export function Hero() {
             Available for new projects
           </div>
 
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent-light">
-            Innocent Matur — Full Stack Web & Mobile Developer
-          </p>
-
           <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-text sm:text-5xl lg:text-6xl">
+            <span className="mb-3 block text-sm font-semibold uppercase tracking-[0.2em] text-accent-light">
+              Innocent Matur — Full Stack Web &amp; Mobile Developer
+            </span>
             Building Powerful Digital Products That <span className="text-gradient-accent">Scale.</span>
           </h1>
 
@@ -125,7 +124,7 @@ export function Hero() {
           <div className="glass-panel relative overflow-hidden rounded-3xl p-3 shadow-glow">
             <img
               src="/cbc5f013-3c60-4b55-b515-2f9fc1c9a7c9.jpg"
-              alt="Illustration of a modern developer workspace with a laptop and floating app interfaces"
+              alt="Innocent Matur - Full-Stack Engineer and Developer Workspace Illustration"
               className="aspect-square w-full rounded-2xl object-cover" />
             
           </div>
