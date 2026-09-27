@@ -49,7 +49,7 @@ export function About() {
             
             <div className="-mt-8 space-y-5 text-base leading-relaxed text-muted">
               <p>
-                I'm Matur Innocent Joshua, a Full Stack Web & Mobile Developer with hands-on experience building
+                I'm Innocent (Joshua) Matur , a Full Stack Web & Mobile Developer with hands-on experience building
                 enterprise software, payment systems, AI applications, mobile apps, web platforms and high-performance
                 systems for organizations that depend on their software to run reliably at scale.
               </p>

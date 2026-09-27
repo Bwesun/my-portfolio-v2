@@ -44,7 +44,7 @@ export function Hero() {
           </div>
 
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent-light">
-            Matur Innocent Joshua — Full Stack Web & Mobile Developer
+            Innocent Matur — Full Stack Web & Mobile Developer
           </p>
 
           <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-text sm:text-5xl lg:text-6xl">
@@ -71,7 +71,7 @@ export function Hero() {
               Hire Me
             </a>
             <a
-              href="/Matur-Innocent-Joshua-CV.pdf"
+              href="#projects"
               download
               className="glass-panel inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-text transition-[transform,border-color] duration-200 ease-out hover:-translate-y-0.5 hover:border-accent/50 active:scale-[0.97]">
               

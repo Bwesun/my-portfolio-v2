@@ -25,13 +25,13 @@ export function LoadingScreen() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.4, ease: [0.23, 1, 0.32, 1] }}>
             <div className="flex flex-col items-center justify-center gap-2">
-              <img src="/project_images/maturinnocent.png" alt="Matur Innocent Joshua " />
+              <img src="/project_images/maturinnocent.png" alt="Innocent Matur" />
               
             </div>
             
           </motion.div>
           <div className="">
-            <p className='text-sm font-bold text-accent-light'>Matur Innocent Joshua</p>
+            <p className='text-sm font-bold text-accent-light'> Innocent Matur</p>
           </div>
           <div className="h-[2px] w-40 overflow-hidden rounded-full bg-border">
             <motion.div

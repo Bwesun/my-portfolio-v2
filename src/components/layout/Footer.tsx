@@ -20,7 +20,7 @@ export function Footer() {
             <a href="#home" className="text-lg font-bold text-text">
               <div className="flex items-center gap-2">
               <img src="/project_images/maturinnocent.png" alt="MIJ" className="h-8 w-8 rounded-full" />
-              <span className="text-accent-light">Matur Innocent Joshua</span>
+              <span className="text-accent-light">Innocent Matur </span>
             </div>
             </a>
             <p className="mt-3 text-sm leading-relaxed text-muted">
@@ -64,7 +64,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
-          <p className="text-xs text-muted">© {new Date().getFullYear()} Matur Innocent Joshua. All rights reserved.</p>
+          <p className="text-xs text-muted">© {new Date().getFullYear()} Innocent Matur. All rights reserved.</p>
           <a
             href="#home"
             className="inline-flex items-center gap-1.5 text-xs font-medium text-muted transition-colors duration-200 hover:text-accent-light">
